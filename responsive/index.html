@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive ticket</title>
+    <style>
+      .btn {
+        
+        width: 600px;
+        height: 300px;
+        border-radius: 10px;
+        
+        display: flex;
+        
+        margin:40px auto;
+        
+        
+      }
+      .tktgen{
+       
+        background-color: #424143;
+        height: 300px;
+        width: 350px;
+        border-right: white dotted;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 10px;
+        color: aliceblue;
+        
+        
+      }
+      
+      .ticket-coupan{
+        background-color: #424143;
+        height: 300px;
+        width: 250px;
+        text-align: center;
+        font-size: 15px;
+        color: #e4dfdf;
+        border-radius: 10px;
+        border: solid 1px white;
+        
+      
+
+      }
+      .ctr{
+        font-size: 20px;
+        background-color: #e4dfdf;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        
+      }
+      .arrange{
+        background-color:white ;
+        color: black;
+        font-size: 15px;
+      }
+
+      .img{
+        height: 40px;
+         width: 90px;
+          margin-top: 20px;
+          padding-bottom: 0%;
+          text-align: center;
+      }
+
+      .het{
+        background-color: rgb(230, 81, 106);
+        color: black;
+      }
+
+      .alt{
+        height: 110px; 
+        width:250px; 
+      }
+      
+      @media screen and (max-width: 600px) {
+              .btn{
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+                width: 300px;
+                
+              }
+
+              .tktgen{
+                width: 300px;
+                border-bottom: dotted white;
+                border-right: none;
+                font-size: 25px;
+                
+
+
+            }
+            .ticket-coupan{
+              width: 300px;
+              height: 260px;
+              font-size: 15px;
+            }
+            .img{
+                   height: 25px;
+                   width: 70px;
+                   margin-top: 10px; 
+                   text-align: center;
+      }
+    
+      
+
+      .alt{
+        height: 110px; 
+        width:300px
+      }
+    }
+            
+            
+      
+            /* Tablet Devices */
+            @media screen and (min-width: 601px) and (max-width: 850px) {
+        
+          .btn{
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+                width: 450px;
+                
+              }
+
+              .tktgen{
+                width: 450px;
+                border-bottom: dotted white;
+                border-right: none;
+                font-size: 25px;
+                
+                
+
+
+            }
+            .ticket-coupan{
+              width: 450px;
+              height: 270px;
+              font-size: 15px;
+            }
+            .img{
+                   height: 25px;
+                   width: 130px;
+                   margin-top: 10px; 
+                   text-align: center;
+      }
+      
+
+      .alt{
+        height: 110px; 
+        width:450px
+          
+           
+            }
+          }
+
+           /* Tablet Devices */
+           @media screen and (min-width: 851px) and (max-width: 1200px) {
+        
+        .btn{
+              flex-direction: row;
+              align-items: center;
+              
+              
+            }
+
+            
+
+         
+
+    
+          }
+        
+    </style>
+    <body>
+        <div class="btn">
+          
+          
+          
+          
+          <div 
+           class="tktgen">
+           
+           <a href="img.pro/" ></a>
+           <img   src="img.pro/ghrua-white.png" style="height: 40px; width: 90px;margin-left: 10px; margin-top: 10px;">
+           
+           <p 
+           class="ctr">
+            TICKET ID=002
+           <p>
+          <h3>TICKET </h3>
+          <p class="arrange"><b>singing compitition</b></p>
+          <p >Date=26 jan. &nbsp;time=7:30 </p>
+                  
+            </div>
+            
+
+            <div class="ticket-coupan"> 
+              <img  class="img" src="img.pro/ghrua-white.png" >
+
+
+              
+             <p><b class="het">VIP ENTRY</b></p> 
+              
+              <img class="alt" src="img.pro/down1.jpeg">
+              
+              <p><b>singing compitition
+                <br>
+            TICKET ID=002 </b></p>
+            </div>
+                
+            </div>
+          
+            
+    </body>
